@@ -23,7 +23,6 @@ export class App extends React.Component<Typo, State> {
     document.addEventListener('keyup', this.handleKeyEvent);
   }
 
-  
   componentWillUnmount(): void {
     document.removeEventListener('keyup', this.handleKeyEvent);
   }
